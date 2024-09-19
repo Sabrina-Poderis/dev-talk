@@ -1,0 +1,21 @@
+{
+  "name": "cifra-cesar",
+  "version": "1.0.0",
+  "main": "index.mjs",
+  "author": "Sabrina pODERIS <sabrina.poderis@gmail.com>",
+  "license": "MIT",
+  "engines": {
+    "node": ">= 22.8"
+
+  },
+  "type": "module",
+  "scripts": {
+    "criptografar": "node --no-warnings --experimental-strip-types index.ts",
+    "test": "vitest"
+  },
+  "devDependencies": {
+    "@types/node": "^22.5.4",
+    "typescript": "^5.6.2",
+    "vitest": "^2.0.5"
+  }
+}
