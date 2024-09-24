@@ -10,7 +10,8 @@
   },
   "type": "module",
   "scripts": {
-    "criptografar": "node --no-warnings --experimental-strip-types index.ts",
+    "criptografar": "node --no-warnings --experimental-strip-types criptografar.ts",
+    "descriptografar": "node --no-warnings --experimental-strip-types descriptografar.ts",
     "test": "vitest"
   },
   "devDependencies": {
