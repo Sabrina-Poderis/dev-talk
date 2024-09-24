@@ -1,4 +1,4 @@
-const alfabetoPadrao = 'ABCDEFGHIJKLMNOPQRSTUVWXYZÇÃÉÀÊÓÁÔÍ0123456789abcdefghijklmnopqrstuvwxyzçãéàêóáôí'
+import alfabetoPadrao from "../constantes/alfabetoPadrao.ts"
 
 const formatarMensagemParaCodificar = (mensagem: string) : string => {
   const mensagemFormatada = mensagem.split('').map((caracter: string) => {

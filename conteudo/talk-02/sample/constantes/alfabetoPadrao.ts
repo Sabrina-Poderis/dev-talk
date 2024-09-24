@@ -1,0 +1,2 @@
+const alfabetoPadrao = 'ABCDEFGHIJKLMNOPQRSTUVWXYZÇÃÉÀÊÓÁÔÍ0123456789abcdefghijklmnopqrstuvwxyzçãéàêóáôí'
+export default alfabetoPadrao
