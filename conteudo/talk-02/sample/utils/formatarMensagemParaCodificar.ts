@@ -9,7 +9,6 @@ const formatarMensagemParaCodificar = (mensagem: string) : string => {
     }
   })
 
-  console.log(mensagemFormatada)
   return mensagemFormatada.join('')
 }
 
